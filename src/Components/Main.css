@@ -1,0 +1,63 @@
+.timer-section {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 50px;
+}
+
+.work-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 50px 0 50px 0;
+  padding: 20px 30px 30px 30px;
+  border-radius: 40px;
+  background-color: #743333d7;
+  box-shadow: 1px 1px 20px 3px #000000;
+}
+
+.rest-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 50px 0 50px 0;
+  padding: 20px 30px 30px 30px;
+  border-radius: 40px;
+  background-color: #327577d7;
+  box-shadow: 1px 1px 20px 3px #000000;
+}
+
+.tree-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #2e431abe;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.button-section {
+  display: flex;
+  gap: 20px;
+}
+
+.start-btn:hover {
+  background-color: #468330;
+}
+
+.pause-btn:hover {
+  background-color: #d9a334;
+}
+
+.reset-btn:hover {
+  background-color: #d93434;
+}
+
+@media screen and (max-width: 426px){
+  .timer-section {
+    grid-template-columns: auto;
+    gap: 10px;
+  }
+}
